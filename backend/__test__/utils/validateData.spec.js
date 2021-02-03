@@ -13,6 +13,6 @@ describe('Validate input data', () => {
     });
 
     test('That NaN Validate Coords fails when either X or Y are NaN', () => {
-        expect(validateCoords('a', '10')).toThrow('X Coord must be an integer');
+        expect(() => validateCoords('a', '10')).toThrow('X Coord must be an integer');
     })
 });
