@@ -1,0 +1,39 @@
+# Logs
+*/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+
+# Grunt intermediate storage (http://gruntjs.com/creating-plugins#storing-task-files)
+*/.grunt
+
+# Dependency directory
+# https://www.npmjs.org/doc/misc/npm-faq.html#should-i-check-my-node_modules-folder-into-git
+*/node_modules
+
+
+# Editor specifc directories
+.idea
+*.iml
+
+# OSX
+.DS_Store
+
+# Packaged and compiled files
+*/lib
+*/.eslintcache
+frontend/build
+
+# Env configuration
+.env
+
+
+# production
+/build
+
+# misc
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+
